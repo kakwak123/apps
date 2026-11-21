@@ -24,5 +24,6 @@ Scores are an AI estimate. They can change with your recording conditions and do
 ## More
 
 - [Full roadmap](https://kakwak123.github.io/gawanggak-docs/docs/roadmap)
-- [Privacy policy (Korean)](https://kakwak123.github.io/gawanggak-docs/docs/privacy-policy)
+- [Privacy policy](./singk-privacy.md)
+- [Terms of service](./singk-terms.md)
 - [Support](./support.md)

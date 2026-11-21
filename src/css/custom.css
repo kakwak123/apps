@@ -1,0 +1,64 @@
+:root {
+  --ifm-color-primary: #0f5c52;
+  --ifm-color-primary-dark: #0d534a;
+  --ifm-color-primary-darker: #0d4e46;
+  --ifm-color-primary-darkest: #0a4039;
+  --ifm-color-primary-light: #11655a;
+  --ifm-color-primary-lighter: #126a5e;
+  --ifm-color-primary-lightest: #15786b;
+  --ifm-background-color: #edf1ee;
+  --ifm-background-surface-color: #edf1ee;
+  --ifm-navbar-background-color: #edf1ee;
+  --ifm-footer-background-color: #edf1ee;
+  --ifm-font-color-base: #233330;
+  --ifm-heading-color: #14211f;
+  --ifm-toc-border-color: #cfd8d3;
+  --ifm-hr-border-color: #cfd8d3;
+  --ifm-table-border-color: #bdc9c3;
+  --ifm-table-stripe-background: #e4eae6;
+  --ifm-font-family-base: 'IBM Plex Sans KR', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Bricolage Grotesque', 'IBM Plex Sans KR', sans-serif;
+  --ifm-line-height-base: 1.7;
+  --ifm-global-radius: 3px;
+}
+
+body {
+  background: #edf1ee;
+}
+
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid #cfd8d3;
+}
+
+.navbar__title {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.footer {
+  border-top: 1px solid #cfd8d3;
+}
+
+.footer__copyright {
+  color: #40504b;
+  font-size: 14px;
+}
+
+.markdown h1:first-child,
+.markdown > header > h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  --ifm-h1-font-size: 2.75rem;
+}
+
+.markdown a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.menu__link {
+  min-height: 40px;
+  align-items: center;
+}
